@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  width: 1054px;
+}
+
+html {
+  min-width: 100%;
+  min-height: 100%;
+  background-image: url("images/iStock-480778738.jpg");
+  background-repeat: no-repeat;
+  background-size:1054px;
+  background-position: right;
+
+  margin-left: 100px;
+}
+
+#top-of-page{
+  text-align: center;
+  position: fixed;
+  left:10% ;
+  top: 20%;
+}
+
+#logo {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 70px;
+}
+
+
+#bio {
+  font-family: 'Lato', sans-serif;
+}
+
+#city {
+  font-family: 'Lato', sans-serif;
+
+}
+
+#footer {
+  font-size: 15px;
+  bottom: 5px;
+  left: 0;
+  right:0;
+  margin: auto;
+  position: fixed;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.mail-icon {
+  position: absolute;
+  text-align: center;
+  position: fixed;
+  left:19.5% ;
+  top: 47%;
+  font-family: 'Lato', sans-serif;
+  line-height: 20px;
+}
+
+
+.github-icon {
+  position: absolute;
+  text-align: center;
+  position: fixed;
+  left:23.5% ;
+  top: 47%;
+  font-family: 'Lato', sans-serif;
+  line-height: 20px;
+}
+
+.github-icon a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Lato', sans-serif;
+}
+
+
+
+.link-icon {
+  position: absolute;
+  text-align: center;
+  position: fixed;
+  left:27.5% ;
+  top: 47%;
+  font-family: 'Lato', sans-serif;
+  line-height: 20px;
+  color: black;
+}
+
+
+
+/*ICONS*/
+
+.glyphicon-envelope{
+  color: black;
+  font-size: 30px;
+}
+
+
+.devicon-github-plain {
+  color: black;
+  font-size: 30px;
+}
+
+.fa-linkedin {
+  color: black;
+  font-size: 30px;
+}
+
+
+/*UNDERLINE EFFECTS*/
+
+#logo:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  border-bottom: 1px solid;
+  margin-top: 10px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0,1);
+  transform: scale(0,1);
+}
+
+#logo:hover:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+#bio:after {
+  content: '';
+  position: absolute;
+  left: 15%;
+  display: inline-block;
+  height: 1em;
+  width: 70%;
+  border-bottom: 1px solid;
+  margin-top: 10px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0,1);
+  transform: scale(0,1);
+}
+
+#bio:hover:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+#city:after {
+  content: '';
+  position: absolute;
+  left: 37% ;
+  display: inline-block;
+  height: 1em;
+  width: 27%;
+  border-bottom: 1px solid;
+  margin-top: 10px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0,1);
+  transform: scale(0,1);
+}
+
+#city:hover:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
