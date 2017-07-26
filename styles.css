@@ -1,21 +1,20 @@
 body {
   margin: 0;
   overflow: hidden;
-  width: 1054px;
 }
 
 html {
+  box-sizing: border-box;
   min-width: 100%;
   min-height: 100%;
   background-image: url("images/iStock-480778738.jpg");
   background-repeat: no-repeat;
   background-size:1054px;
   background-position: right;
-
   margin-left: 100px;
 }
 
-#top-of-page{
+.top-of-page{
   text-align: center;
   position: fixed;
   left:10% ;
@@ -34,7 +33,12 @@ html {
 
 #city {
   font-family: 'Lato', sans-serif;
+  padding-bottom: 15px;
 
+}
+
+.links {
+  padding-bottom: 40px;
 }
 
 #footer {
@@ -49,43 +53,35 @@ html {
 }
 
 .mail-icon {
-  position: absolute;
-  text-align: center;
-  position: fixed;
-  left:19.5% ;
-  top: 47%;
+  align-items: center;
   font-family: 'Lato', sans-serif;
   line-height: 20px;
+  display: inline-block;
+  font-size: 40px;
+  padding-right: 20px;
 }
 
 
 .github-icon {
-  position: absolute;
-  text-align: center;
-  position: fixed;
-  left:23.5% ;
-  top: 47%;
   font-family: 'Lato', sans-serif;
   line-height: 20px;
+  display: inline-block;
+  padding-right: 20px;
 }
 
 .github-icon a{
   text-decoration: none;
   color: black;
   font-family: 'Lato', sans-serif;
+  display: inline-block;
 }
 
 
 
 .link-icon {
-  position: absolute;
-  text-align: center;
-  position: fixed;
-  left:27.5% ;
-  top: 47%;
   font-family: 'Lato', sans-serif;
-  line-height: 20px;
   color: black;
+  display: inline-block;
 }
 
 
@@ -94,18 +90,31 @@ html {
 
 .glyphicon-envelope{
   color: black;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 
 .devicon-github-plain {
   color: black;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .fa-linkedin {
   color: black;
   font-size: 30px;
+}
+
+.experience h4{
+  color: black;
+  display: inline-block;
+  list-style: none;
+  text-align: center;
+  font-size: 30px;
+}
+
+.experience {
+  font-size: 50px;
+  margin: auto;
 }
 
 

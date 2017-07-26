@@ -1,0 +1,15 @@
+/*MEDIA*/
+
+@media screen and (max-width: 1426px) and (max-width: 1748px) {
+
+  html {
+    box-sizing: border-box;
+    background-image: url("images/iStock-480778738.jpg");
+    background-repeat: no-repeat;
+    background-size: 732px;
+    background-position: right;
+    margin-left: 100px;
+  }
+
+
+}
