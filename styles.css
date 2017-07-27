@@ -12,6 +12,7 @@ html {
   background-size:1054px;
   background-position: right;
   margin-left: 100px;
+  overflow: hidden;
 }
 
 .top-of-page{

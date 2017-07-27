@@ -9,7 +9,125 @@
     background-size: 732px;
     background-position: right;
     margin-left: 100px;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 1186px) and (max-width: 1426px) {
+
+  html {
+    box-sizing: border-box;
+    background-image: url("images/iStock-535969379.jpg");
+    background-repeat: no-repeat;
+    background-size: 732px;
+    background-position: right;
+    margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 1186px) and (max-width: 1426px) {
+
+  html {
+    box-sizing: border-box;
+    background-image: url("images/iStock-535969379.jpg");
+    background-repeat: no-repeat;
+    background-size: 732px;
+    background-position: right;
+    margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (max-width: 1186px) {
+
+  html {
+    box-sizing: border-box;
+    background-image: url("images/iStock-535969379.jpg");
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position: bottom;
+  }
+
+  .top-of-page{
+    text-align: center;
+    position: fixed;
+    margin: auto;
+    top: 100px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  #logo {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 70px;
+    font-weight: bold;
   }
 
 
+  #bio {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+  }
+
+  #city {
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 15px;
+    font-weight: bold;
+
+  }
+}
+
+@media screen and (max-width: 414px) and (max-width: 1024px) {
+
+  html {
+    box-sizing: border-box;
+    background-image: url("images/iStock-535969379.jpg");
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: bottom;
+  }
+
+  .top-of-page{
+    text-align: center;
+    position: fixed;
+    margin: auto;
+    top: 100px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  #logo {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+
+  #bio {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  #city {
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 15px;
+    font-weight: bold;
+    font-size: 20px;
+
+  }
+
+  .experience h4{
+    color: black;
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .experience {
+    font-size: 20px;
+    margin: auto;
+  }
 }
