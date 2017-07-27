@@ -43,7 +43,7 @@
     box-sizing: border-box;
     background-image: url("images/iStock-535969379.jpg");
     background-repeat: no-repeat;
-    background-size: 800px;
+    background-size: 400px;
     background-position: bottom;
   }
 
@@ -60,20 +60,31 @@
   #logo {
     font-family: 'Julius Sans One', sans-serif;
     font-size: 70px;
-    font-weight: bold;
   }
 
 
   #bio {
     font-family: 'Lato', sans-serif;
-    font-weight: bold;
   }
 
   #city {
     font-family: 'Lato', sans-serif;
     padding-bottom: 15px;
-    font-weight: bold;
 
+  }
+
+  /*UNDERLINE EFFECTS*/
+
+  #logo:after {
+    display: none;
+  }
+
+  #bio:after {
+    display: none;
+  }
+
+  #city:after {
+    display: none;
   }
 }
 
