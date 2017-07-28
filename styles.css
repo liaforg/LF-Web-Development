@@ -40,7 +40,7 @@ html {
 }
 
 .links {
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 
 #footer {
@@ -61,6 +61,11 @@ html {
   display: inline-block;
   font-size: 40px;
   padding-right: 20px;
+  color: black;
+}
+
+.mail-icon a{
+  color: black;
 }
 
 
@@ -69,6 +74,7 @@ html {
   line-height: 20px;
   display: inline-block;
   padding-right: 20px;
+    color: black;
 }
 
 .github-icon a{
@@ -78,8 +84,7 @@ html {
   display: inline-block;
 }
 
-
-.link-icon {
+.link-icon a{
   font-family: 'Lato', sans-serif;
   color: black;
   display: inline-block;
