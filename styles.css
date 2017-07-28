@@ -68,6 +68,9 @@ html {
   color: black;
 }
 
+span.fa.fa-envelope {
+    color: black;
+}
 
 .github-icon {
   font-family: 'Lato', sans-serif;
@@ -90,6 +93,9 @@ html {
   display: inline-block;
 }
 
+span.fa.fa-linkedin-square {
+    color: black;
+}
 
 
 /*ICONS*/
