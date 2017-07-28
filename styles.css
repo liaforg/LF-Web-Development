@@ -87,10 +87,18 @@ span.fa.fa-envelope {
   display: inline-block;
 }
 
+span.fa.fa-github {
+    color: black;
+}
+
 .link-icon a{
   font-family: 'Lato', sans-serif;
   color: black;
   display: inline-block;
+}
+
+span.fa.fa-github {
+    color: black;
 }
 
 span.fa.fa-linkedin-square {
