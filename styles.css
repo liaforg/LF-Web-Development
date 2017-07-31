@@ -16,6 +16,7 @@ html {
   position: fixed;
 }
 
+
 .top-of-page{
   text-align: center;
   position: fixed;
@@ -45,13 +46,15 @@ html {
 
 #footer {
   font-size: 15px;
-  bottom: 5px;
+  bottom:5px;
   left: 0;
   right:0;
   margin: auto;
   position: fixed;
   text-align: center;
   font-family: 'Lato', sans-serif;
+  width: 100%;
+
 }
 
 .mail-icon {
