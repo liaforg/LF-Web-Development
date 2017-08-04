@@ -4,7 +4,7 @@
 
   html {
     box-sizing: border-box;
-    background-image: url("images/black-med.jpg");
+    background-image: url("images/black-med-min.jpg");
     background-repeat: no-repeat;
     background-size: 732px;
     background-position: right;
@@ -17,7 +17,7 @@
 
   html {
     box-sizing: border-box;
-    background-image: url("images/small-gold.jpg");
+    background-image: url("images/small-gold-min.jpg");
     background-repeat: no-repeat;
     background-size: 732px;
     background-position: right;
@@ -29,7 +29,7 @@
 
   html {
     box-sizing: border-box;
-    background-image: url("images/small-gold.jpg");
+    background-image: url("images/small-gold-min.jpg");
     background-repeat: no-repeat;
     background-size: 732px;
     background-position: right;
@@ -41,7 +41,7 @@
 
   html {
     box-sizing: border-box;
-    background-image: url("images/small-gold.jpg");
+    background-image: url("images/small-gold-min.jpg");
     background-repeat: no-repeat;
     background-size: 400px;
     background-position: bottom;
@@ -92,7 +92,7 @@
 
   html {
     box-sizing: border-box;
-    background-image: url("images/small-gold.jpg");
+    background-image: url("images/small-gold-min.jpg");
     background-repeat: no-repeat;
     background-size: 400px;
     background-position: bottom;
