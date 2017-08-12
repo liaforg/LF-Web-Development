@@ -283,10 +283,12 @@ span.fa.fa-linkedin-square:hover {
 
 .top-of-page::after {
   background-image: url('images/black-med-min.jpg');
+  background-repeat: no-repeat;
 }
 
 .experience::after {
   background-image: url('images/black-med-min.jpg');
+  background-repeat: no-repeat;
 }
 
 /*ARROW BOUNCE*/
