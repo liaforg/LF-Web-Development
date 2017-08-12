@@ -14,10 +14,11 @@ body {
   margin-top: 100px;
 }
 
-#lf {
+.top-of-page #lf {
  width: 50%;
  padding-bottom: 30px;
 }
+
 
 #logo {
   font-size: 80px;
