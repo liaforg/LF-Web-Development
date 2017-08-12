@@ -155,7 +155,7 @@
 @media screen and (max-width: 1206px) and (max-width: 1240px) {
 
   .wrapper {
-    background-image: url('images/blue.jpg');
+    background-image: url('images/blue-min.jpg');
     background-repeat: no-repeat;
     height: 100vh;
     overflow-x: hidden;
@@ -205,7 +205,7 @@
 @media screen and (max-width: 1107px) and (max-width: 1186px) {
 
   .wrapper {
-    background-image: url('images/blue.jpg');
+    background-image: url('images/blue-min.jpg');
     background-repeat: no-repeat;
     height: 100vh;
     overflow-x: hidden;
@@ -259,7 +259,7 @@
   }
 
   .wrapper {
-    background-image: url('images/blue.jpg');
+    background-image: url('images/blue-min.jpg');
     background-repeat: no-repeat;
     height: 100vh;
     overflow-x: hidden;
@@ -357,7 +357,7 @@
   }
 
   .wrapper {
-    background-image: url('images/blue.jpg');
+    background-image: url('images/blue-min.jpg');
     background-repeat: no-repeat;
     height: 100vh;
     overflow-x: hidden;
@@ -455,7 +455,7 @@
   }
 
   .wrapper {
-    background-image: url('images/blue.jpg');
+    background-image: url('images/blue-min.jpg');
     background-repeat: no-repeat;
     height: 100vh;
     overflow-x: hidden;
@@ -568,7 +568,7 @@
   }
 
   .wrapper {
-    background-image: url('images/blue.jpg');
+    background-image: url('images/blue-min.jpg');
     background-repeat: no-repeat;
     height: 100vh;
     overflow-x: hidden;
@@ -683,7 +683,7 @@
   }
 
   .wrapper {
-    background-image: url('images/blue.jpg');
+    background-image: url('images/blue-min.jpg');
     background-repeat: no-repeat;
     height: 100vh;
     overflow-x: hidden;
