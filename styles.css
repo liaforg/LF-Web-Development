@@ -14,14 +14,25 @@ body {
   margin-top: 100px;
 }
 
-.top-of-page #lf {
- width: 50%;
- padding-bottom: 30px;
+#lf {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin: auto;
 }
 
+#LF{
+  margin: auto;
+  font-size: 80px;
+  padding-top: 25%;
+}
 
 #logo {
   font-size: 80px;
+  padding-top: 30px;
   padding-bottom: 30px;
 }
 
@@ -100,14 +111,20 @@ span.fa.fa-linkedin-square {
 
 #exp {
   font-size: 50px;
-  padding-bottom: 70px;
+  padding-bottom: 20px;
 }
 
-#selfie {
-  padding-bottom: 50px;
-  border-radius: 50%;
-  width: 40%;
 
+#circ {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background-image: url("images/self.jpg");
+  background-position: center;
+  background-size: contain;
+  border-radius: 50%;
+  padding-left: -100px;
+  margin-bottom: 30px;
 }
 
 #me {
