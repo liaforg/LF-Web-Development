@@ -3,35 +3,30 @@ body {
   overflow: hidden;
 }
 
-html {
-  box-sizing: border-box;
-  min-width: 100%;
-  min-height: 100%;
-  background-image: url("images/black-med-min.jpg");
-  background-repeat: no-repeat;
-  background-size:1054px;
-  background-position: right;
+
+/*FIRST SLIDE*/
+.top-of-page {
+  width: 600px;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 70px;
   margin-left: 100px;
-  overflow: hidden;
-  position: fixed;
+  text-align: center;
+  margin-top: 100px;
 }
 
-
-.top-of-page{
-  text-align: center;
-  position: fixed;
-  left:10% ;
-  top: 20%;
+#lf {
+ width: 50%;
+ padding-bottom: 30px;
 }
 
 #logo {
-  font-family: 'Julius Sans One', sans-serif;
-  font-size: 70px;
+  font-size: 80px;
+  padding-bottom: 30px;
 }
-
 
 #bio {
   font-family: 'Lato', sans-serif;
+  padding-bottom: 10px;
 }
 
 #city {
@@ -44,25 +39,11 @@ html {
   padding-bottom: 60px;
 }
 
-#footer {
-  font-size: 15px;
-  bottom:5px;
-  left: 0;
-  right:0;
-  margin: auto;
-  position: fixed;
-  text-align: center;
-  font-family: 'Lato', sans-serif;
-  width: 100%;
-
-}
-
 .mail-icon {
   align-items: center;
   font-family: 'Lato', sans-serif;
   line-height: 20px;
   display: inline-block;
-  font-size: 40px;
   padding-right: 20px;
   color: black;
 }
@@ -80,7 +61,7 @@ span.fa.fa-envelope {
   line-height: 20px;
   display: inline-block;
   padding-right: 20px;
-    color: black;
+  color: black;
 }
 
 .github-icon a{
@@ -100,34 +81,51 @@ span.fa.fa-github {
   display: inline-block;
 }
 
-span.fa.fa-github {
-    color: black;
-}
-
 span.fa.fa-linkedin-square {
     color: black;
 }
 
 
-/*ICONS*/
 
-.glyphicon-envelope{
-  color: black;
-  font-size: 25px;
+/*SECOND SLIDE*/
+.about {
+  font-size: 50px;
+  width: 600px;
+  font-family: 'Julius Sans One', sans-serif;
+  margin-left: 100px;
+  text-align: center;
+  margin-top: 200px;
 }
 
-
-.devicon-github-plain {
-  color: black;
-  font-size: 40px;
+#exp {
+  font-size: 50px;
+  padding-bottom: 30px;
 }
 
-.fa-linkedin {
-  color: black;
-  font-size: 30px;
+#selfie {
+  padding-bottom: 50px;
+  border-radius: 50%;
+  width: 70%;
+
 }
 
-.experience h4{
+#me {
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+
+/*THIRD SLIDE*/
+.skills{
+  font-size: 50px;
+  width: 600px;
+  font-family: 'Julius Sans One', sans-serif;
+  margin-left: 100px;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.skills h4{
+  padding-top: 80px;
   color: black;
   display: inline-block;
   list-style: none;
@@ -135,9 +133,38 @@ span.fa.fa-linkedin-square {
   font-size: 30px;
 }
 
-.experience {
+
+/*FOURTH SLIDE*/
+#port{
   font-size: 50px;
+  width: 600px;
+  font-family: 'Julius Sans One', sans-serif;
+  margin-left: 100px;
+  text-align: center;
+  margin-top: 200px;
+}
+
+#portfolio{
+  font-size: 20px;
+  width: 600px;
+  font-family: 'Julius Sans One', sans-serif;
+  margin-left: 100px;
+  text-align: center;
+  margin-top: 200px;
+}
+
+
+/*FOOTER*/
+#footer {
+  font-size: 15px;
+  bottom:5px;
+  left: 0;
+  right:0;
   margin: auto;
+  position: fixed;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  width: 100%;
 }
 
 
@@ -209,6 +236,7 @@ span.fa.fa-linkedin-square {
 }
 
 /*FLASH*/
+
 h4:hover {
   opacity: 1;
   -webkit-animation: flash 1.5s;
@@ -279,3 +307,48 @@ span.fa.fa-linkedin-square:hover {
   animation-name: bounce;
   -moz-animation-name: bounce;
 }
+
+
+/*SCROLLING*/
+
+.wrapper {
+  background-image: url('images/black-med-min.jpg');
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 2px;
+  min-width: 100%;
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size:1054px;
+  background-position: right;
+  position: fixed;
+}
+
+.section {
+  position: relative;
+  height: 80vh;
+}
+
+.parallax::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateZ(-1px) scale(1.5);
+  background-size: 100%;
+  z-index: -1;
+}
+
+.top-of-page::after {
+  background-image: url('images/black-med-min.jpg');
+}
+
+.experience::after {
+  background-image: url('images/black-med-min.jpg');
+}
+
+/*ARROW BOUNCE*/
