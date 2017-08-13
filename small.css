@@ -307,7 +307,7 @@
 }
 
 
-@media screen and (max-width: 412px) and (max-width: 414px) {
+@media screen and (max-width: 412px) and (max-width: 413px) {
 
   .top-of-page{
     width: 400px;
@@ -409,11 +409,10 @@
 
   .top-of-page{
     width: 400px;
-    margin-top: 40px;
+    margin-top: 70px;
     font-size: 20px;
     margin-left: 5px;
   }
-
 
   .about {
     font-size: 15px;
