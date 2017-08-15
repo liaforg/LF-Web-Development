@@ -8,7 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" type="text/css" href="small.css">
-    <script src="composer.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Lato:300" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <!-- Latest compiled and minified CSS -->
@@ -21,6 +20,9 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <script src="node_modules/aos/dist/aos.js"></script>
+    <link rel="stylesheet" href="node_modules/aos/dist/aos.css" />
+    <link rel="stylesheet" href="animate.min.css">
 
   </head>
 
@@ -28,12 +30,10 @@
 
     <main class="wrapper">
 
-<!-- SCROLL BAR -->
-
 
 <!-- FIRST PAGE - HOME -->
-      <section class="section parallax bg1">
-        <div class = "top-of-page">
+  <section class="section parallax bg1" >
+        <div class = "top-of-page" data-aos="zoom-in">
           <div id="lf">
             <h1 id="LF"> LF </h1>
           </div>
@@ -52,14 +52,11 @@
           </span>
         </div>
        </div>
-
-      </section>
-
-
-
+    </div>
+  </section>
 
 <!-- SECOND - BIO -->
-      <section class="section parallax bg2">
+    <section class="section parallax bg2" >
           <div class = 'about'>
             <h1 id="exp"> About Me</h1>
 
@@ -74,10 +71,11 @@
               determined, and innovative personality to diligently tackle any task at hand.
               I am driven to provide the best!
             </p>
-      </section>
+          </div>
+        </section>
 
 <!-- THIRD PAGE - PORTFOLIO -->
-    <section class="section-parallax-bg3">
+  <section class="section parallax bg3" >
       <div class = "skills">
         <h1 id="exp"> Skills </h1>
       <table class="tab">
@@ -126,22 +124,24 @@
     </section>
 
 
-
 <!-- THIRD PAGE - PORTFOLIO -->
-        <section class="section parallax bg4">
+        <section class="section parallax bg4" >
           <h1 id="port"> Portfolio </h1>
           <h3 id="portfolio"> coming soon! </h3>
 
           <footer>
             <h4 id = "footer"> &copy; Lia Forgione 2017 </h4>
           </footer>
-
         </section>
-
     </main>
 
 
   </div>
+
+  <script src="composer.min.js"></script>
+  <script src="node_modules/aos/dist/aos.js"></script>
+
+
 
   </body>
 

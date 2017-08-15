@@ -263,9 +263,10 @@ span.fa.fa-linkedin-square:hover {
 
 .wrapper {
   background-image: url('images/black-med-min.jpg');
+  left: 10px;
   height: 100vh;
   overflow-x: hidden;
-  overflow-y: auto;
+  overflow-y:auto;
   perspective: 2px;
   min-width: 100%;
   background-position: fixed;
@@ -279,13 +280,7 @@ span.fa.fa-linkedin-square:hover {
   position: relative;
   height: 70vh;
 }
-
-.section-parallax-bg3{
-  position: relative;
-  height: 70vh;
-}
-
-
+/*
 .parallax::after {
   content: " ";
   position: absolute;
@@ -296,9 +291,9 @@ span.fa.fa-linkedin-square:hover {
   transform: translateZ(-1px) scale(1.5);
   background-size: 100%;
   z-index: -1;
-}
+}*/
 
-.top-of-page::after {
+/*.top-of-page::after {
   background-image: url('images/black-med-min.jpg');
   background-repeat: no-repeat;
 }
@@ -306,6 +301,7 @@ span.fa.fa-linkedin-square:hover {
 .experience::after {
   background-image: url('images/black-med-min.jpg');
   background-repeat: no-repeat;
-}
+}*/
 
-/*ARROW BOUNCE*/
+
+/*SLIDE IN*/
