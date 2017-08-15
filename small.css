@@ -210,12 +210,22 @@
 
 }
 
-@media screen and (max-width: 1024px) and (max-width: 1286px) {
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) {
 
   .top-of-page{
-    margin-top: px;
+    font-size: 130px;
+    margin-top:150px;
   }
 
+  #port{
+    padding-top: -200px;
+    font-size: 50px;
+    width: 600px;
+    font-family: 'Julius Sans One', sans-serif;
+    margin-left: 100px;
+    text-align: center;
+    margin-top: 250px;
+  }
 
   .wrapper {
     background-image: url('images/blue-min.jpg');
@@ -265,6 +275,70 @@
   }
 }
 
+
+@media screen and (max-width: 1024px) and (max-width: 1286px) {
+
+  .top-of-page{
+    margin-top:300px;
+  }
+
+  #port{
+    padding-top: -200px;
+    font-size: 50px;
+    width: 600px;
+    font-family: 'Julius Sans One', sans-serif;
+    margin-left: 100px;
+    text-align: center;
+    margin-top: 250px;
+  }
+
+  .wrapper {
+    background-image: url('images/blue-min.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 2px;
+    min-width: 100%;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: right;
+    position: fixed;
+  }
+
+  .section {
+    position: relative;
+    height: 70vh;
+  }
+
+  .section-parallax-bg3{
+    position: relative;
+    height: 70vh;
+  }
+
+  .parallax::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateZ(-1px) scale(1.5);
+    background-size: 100%;
+    z-index: -1;
+  }
+
+  .top-of-page::after {
+    background-image: url('images/black-med-min.jpg');
+    background-repeat: no-repeat;
+  }
+
+  .experience::after {
+    background-image: url('images/black-med-min.jpg');
+    background-repeat: no-repeat;
+  }
+}
 
 @media screen and (max-width: 1018px) and (max-width: 1286px) {
 
@@ -436,9 +510,65 @@
     width: 600px;
     font-family: 'Julius Sans One', sans-serif;
     font-size: 70px;
-    margin-left: 100px;
+    margin-left: auto;
     text-align: center;
     margin-top: 180px;
+  }
+  .wrapper {
+    background-image: url('images/blue-min.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 2px;
+    min-width: 100%;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: right;
+    position: fixed;
+  }
+
+  .section {
+    position: relative;
+    height: 70vh;
+  }
+
+  .section-parallax-bg3{
+    position: relative;
+    height: 70vh;
+  }
+
+  .parallax::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateZ(-1px) scale(1.5);
+    background-size: 100%;
+    z-index: -1;
+  }
+
+  .top-of-page::after {
+    background-image: url('images/black-med-min.jpg');
+    background-repeat: no-repeat;
+  }
+
+  .experience::after {
+    background-image: url('images/black-med-min.jpg');
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (max-height: 768px) {
+  .top-of-page {
+    width: 600px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 80px;
   }
   .wrapper {
     background-image: url('images/blue-min.jpg');
@@ -821,13 +951,24 @@
   .top-of-page{
     width: 300px;
     margin-top: 40px;
-    font-size: 10px;
+    font-size: 20px;
     margin-left: 10px;
     padding-bottom: 50px;
   }
 
   #logo {
-    font-size: 50px;
+    font-size: 30px;
+  }
+
+  #lf{
+    width: 80px;
+    height: 80px;
+  }
+
+  #LF{
+    font-size: 40px;
+    margin:auto;
+    padding-top: 25%;
   }
 
 
