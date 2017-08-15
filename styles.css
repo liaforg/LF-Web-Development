@@ -3,6 +3,9 @@ body {
   overflow: hidden;
 }
 
+div {
+  -webkit-overflow-scrolling: touch;
+  }
 
 /*FIRST SLIDE*/
 .top-of-page {
@@ -209,6 +212,7 @@ table h4 {
   width: 100%;
 }
 
+
 /*ARROW*/
 
 i.fa.fa-chevron-down{
@@ -315,7 +319,6 @@ span.fa.fa-linkedin-square:hover {
 
 .wrapper {
   background-image: url('images/black-med-min.jpg');
-  left: 10px;
   height: 100vh;
   overflow-x: hidden;
   overflow-y:auto;
@@ -326,6 +329,7 @@ span.fa.fa-linkedin-square:hover {
   background-size:1054px;
   background-position: right;
   position: fixed;
+  -webkit-overflow-scrolling: touch;
 }
 
 .section {
