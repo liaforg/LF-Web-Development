@@ -1,23 +1,136 @@
-body {
+/**
+ * Eric Meyer's Reset CSS v2.0
+(https://meyerweb.com/
+eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
   margin: 0;
-  overflow: hidden;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
-div {
-  -webkit-overflow-scrolling: touch;
-  }
+*{
+  box-sizing: border-box;
+}
 
-/*FIRST SLIDE*/
-.top-of-page {
-  width: 600px;
-  font-family: 'Julius Sans One', sans-serif;
-  font-size: 70px;
-  margin-left: 100px;
-  text-align: center;
+html {
+  line-height: 1.35;
+  width: 100%
+}
+
+body{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+main {
+    font-family: 'Raleway', sans-serif;
+    background-image: url("images/blue-min.jpg");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    overflow-y: scroll;
+    width: 100%;
+    height: 950px;
+    margin: auto;
+    position: fixed;
+    margin: auto;
+    left: 0;
+    right: 0;
+
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+.arrow.animated.bounce {
+    text-align: center;
+}
+
+
+#page{
+  z-index: 2;
+  width: 1000px;
+  height: 420%;
   margin-top: 100px;
 }
 
 #lf {
+  z-index: 2;
+  display: block;
   border-radius: 50%;
   width: 150px;
   height: 150px;
@@ -27,31 +140,46 @@ div {
   margin: auto;
 }
 
-#LF{
+#LF {
+    margin: auto;
+    font-size: 80px;
+    padding-top: 21%;
+    letter-spacing: 6px;
+    padding-left: 7%;
+}
+
+h1#logo {
   margin: auto;
+  text-align: center;
   font-size: 80px;
-  padding-top: 25%;
+  padding-top: 80px;
+  padding-bottom: 60px;
 }
 
-#logo {
-  font-size: 80px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-#bio {
-  font-family: 'Lato', sans-serif;
-  padding-bottom: 10px;
+h2#bio {
+  margin: auto;
+  letter-spacing: 11px;
+  font-size: 29px;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 60px;
 }
 
 #city {
+  margin: auto;
+  text-align: center;
   font-family: 'Lato', sans-serif;
   padding-bottom: 15px;
-
+  letter-spacing: 3px;
 }
 
 .links {
-  padding-bottom: 60px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
 }
 
 .mail-icon {
@@ -100,48 +228,42 @@ span.fa.fa-linkedin-square {
     color: black;
 }
 
-
-
-/*SECOND SLIDE*/
-.about {
-  font-size: 50px;
-  width: 600px;
-  font-family: 'Julius Sans One', sans-serif;
-  margin-left: 100px;
-  text-align: center;
+h1#exp {
+  margin: auto;
   margin-top: 200px;
+  text-align: center;
+  padding-bottom: 60px;
 }
-
-#exp {
-  font-size: 50px;
-  padding-bottom: 20px;
-}
-
 
 #circ {
-  width: 150px;
-  height: 150px;
+  padding-top: 70px;
+  margin: auto;
+  width: 200px;
+  height: 200px;
   margin: auto;
   background-image: url("images/self.jpg");
   background-position: center;
   background-size: contain;
   border-radius: 50%;
   padding-left: -100px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
-#me {
-  font-size: 20px;
-  padding-bottom: 50px;
+p#me {
+    text-align: center;
+    width: 700px;
+    margin: auto;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+    line-height: 39px;
+    padding-bottom: 100px;
+    font-weight: 900;
+    font-size: 18px;
 }
-
-/*THIRD SLIDE*/
 
 .skills{
   font-size: 50px;
-  width: 600px;
-  font-family: 'Julius Sans One', sans-serif;
-  margin-left: 100px;
+  margin: auto;
   text-align: center;
   margin-top: 100px;
 }
@@ -162,7 +284,6 @@ table{
 
 table{
   width: 95%;
-  font-family: 'Julius Sans One', sans-serif;
   font-size: 20px;
   text-align: center;
   border: 0 solid white;
@@ -170,64 +291,34 @@ table{
 }
 
 table td{
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 table h4 {
   padding-bottom: 50px;
 }
 
-
-/*FOURTH SLIDE*/
-#port{
-  padding-top: -200px;
-  font-size: 50px;
-  width: 600px;
-  font-family: 'Julius Sans One', sans-serif;
-  margin-left: 100px;
-  text-align: center;
-  margin-top: 260px;
+h1#port {
+    margin: auto;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 50px;
 }
 
-
-#port_box{
-  padding-top: -200px;
-  font-size: 50px;
-  width: 600px;
-  font-family: 'Julius Sans One', sans-serif;
-  margin-left: 100px;
-  text-align: center;
-  margin-top: 260px;
+.port_box {
+    margin: auto;
+    text-align: center;
 }
 
-#port_box2{
-  margin: auto;
-  padding-top: -200px;
-  font-size: 50px;
-  width: 600px;
-  font-family: 'Julius Sans One', sans-serif;
-  margin-left: 50px;
-  text-align: center;
+h4#footer {
+    margin: auto;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 100px;
 }
 
 
 
-
-
-
-
-/*FOOTER*/
-#footer {
-  font-size: 15px;
-  bottom: -50px;
-  left: 0;
-  right:0;
-  margin: auto;
-  position: absolute;
-  text-align: center;
-  font-family: 'Lato', sans-serif;
-  width: 100%;
-}
 
 
 /*ARROW*/
@@ -329,54 +420,4 @@ span.fa.fa-linkedin-square:hover {
   cursor: pointer;
   animation-name: bounce;
   -moz-animation-name: bounce;
-}
-
-
-/*SCROLLING*/
-
-.wrapper {
-  background-image: url('images/black-med-min.jpg');
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y:auto;
-  perspective: 2px;
-  min-width: 110%;
-  background-position: fixed;
-  background-repeat: no-repeat;
-  background-size:1054px;
-  background-position: right;
-  position: fixed;
-  -webkit-overflow-scrolling: touch;
-}
-
-.section {
-  position: relative;
-  height: 80vh;
-}
-
-section.section.parallax.bg4 {
-  height: 120vh;
-}
-
-
-.parallax::after {
-  content: " ";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  transform: translateZ(-1px) scale(1.5);
-  background-size: 100%;
-  z-index: -1;
-}*/
-
-.top-of-page::after {
-  background-image: url('images/black-med-min.jpg');
-  background-repeat: no-repeat;
-}
-
-.experience::after {
-  background-image: url('images/black-med-min.jpg');
-  background-repeat: no-repeat;
 }

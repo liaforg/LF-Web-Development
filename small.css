@@ -340,58 +340,18 @@
   }
 }
 
-@media screen and (max-width: 1018px) and (max-width: 1286px) {
-
-
-  .wrapper {
-    background-image: url('images/blue-min.jpg');
-    background-repeat: no-repeat;
-    height: 100vh;
-    overflow-x: hidden;
-    overflow-y: auto;
-    perspective: 2px;
-    min-width: 100%;
-    background-position: fixed;
-    background-repeat: no-repeat;
-    background-size: 600px;
-    background-position: center;
-    position: fixed;
-  }
-
-  .section {
-    position: relative;
-    height: 70vh;
-  }
-
-  .section-parallax-bg3{
-    position: relative;
-    height: 70vh;
-  }
-
-  .parallax::after {
-    content: " ";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    transform: translateZ(-1px) scale(1.5);
-    background-size: 100%;
-    z-index: -1;
-  }
-
-  .top-of-page::after {
-    background-image: url('images/black-med-min.jpg');
-    background-repeat: no-repeat;
-  }
-
-  .experience::after {
-    background-image: url('images/black-med-min.jpg');
-    background-repeat: no-repeat;
-  }
-}
-
 @media screen and (max-width: 992px){
+
+  #port_box2{
+    margin: auto;
+    width: 100%;
+  }
+
+  img#uav{
+    margin: auto;
+    left: 0;
+    right: 0;
+  }
 
   .top-of-page {
     width: 600px;
@@ -448,14 +408,10 @@
     margin-top: 200px;
   }
 
-  #portfolio{
-    font-size: 8px;
-    width: 300px;
-    font-family: 'Julius Sans One', sans-serif;
-    margin: auto;
-    text-align: center;
-    margin-top: 50px;
-  }
+
+
+
+
 
   .wrapper {
     background-image: url('images/blue-min.jpg');
@@ -503,9 +459,44 @@
     background-image: url('images/black-med-min.jpg');
     background-repeat: no-repeat;
   }
+
+  #port_box {
+    font-size: 50px;
+    width: 300px;
+    margin-left: 100px;
+  }
+
+
+  img#mkup{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    margin-left: 40px;
+  }
+
+  img#uav{
+    position: absolute;
+    margin: auto;
+    top: 480px;
+    left: 0;
+    right: 0;
+    margin-left: 40px;
+  }
 }
 
 @media screen and (max-width: 768px) {
+  #port_box2{
+    margin: auto;
+    width: 100%;
+  }
+
+  img#uav{
+    margin: auto;
+    left: 0;
+    right: 0;
+  }
+
   .top-of-page {
     width: 600px;
     font-family: 'Julius Sans One', sans-serif;
@@ -621,6 +612,17 @@
 
 @media screen and (min-width: 412px) and (max-width: 764px) {
 
+  #port_box2{
+    margin: auto;
+    width: 100%;
+  }
+
+  img#uav{
+    margin: auto;
+    left: 0;
+    right: 0;
+  }
+
   .top-of-page{
     width: 400px;
     margin-top: 40px;
@@ -715,6 +717,7 @@
     background-image: url('images/black-med-min.jpg');
     background-repeat: no-repeat;
   }
+
 
 }
 
