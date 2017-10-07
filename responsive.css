@@ -1,0 +1,125 @@
+@media only screen and (max-width: 1000px){
+  #page{
+    z-index: 2;
+    width: 100%;
+    height: 420%;
+    margin-top: 0px;
+  }
+
+}
+
+@media only screen and (max-width: 720px){
+  #page{
+    z-index: 2;
+    width: 100%;
+    height: 420%;
+    margin-top: 0px;
+  }
+
+  main {
+      background-image: url("images/blue_fade.jpg");
+  }
+
+  #lf {
+    width: 130px;
+    height: 130px;
+  }
+
+  #LF {
+    margin: auto;
+    font-size: 66px;
+    padding-top: 23%;
+    letter-spacing: 5px;
+    padding-left: 7%;
+  }
+
+  h1#logo {
+    font-size: 60px;
+  }
+
+  h2#bio {
+    font-size: 25px;
+  }
+
+  h3#city {
+    font-size: 21px;
+    padding-bottom: 30px;
+  }
+
+  h1#exp {
+    font-size: 30px;
+    margin-bottom: -25px;
+  }
+
+  #circ {
+    width: 180px;
+    height: 180px;
+    margin-bottom: 30px;
+  }
+
+  p#me {
+    width: 100%;
+  }
+
+  table {
+      width: 100%;
+    font-size: 15px;
+  }
+
+  h1#port {
+    font-size: 30px;
+  }
+
+  img#mc {
+    width: 100%;
+    height: 100%;
+  }
+
+  img#uav {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 420px){
+  #lf {
+    width: 110px;
+    height: 110px;
+  }
+
+  #LF {
+    margin: auto;
+    font-size: 59px;
+  }
+
+  h1#logo {
+    font-size: 50px;
+  }
+
+  h2#bio {
+    font-size: 18px;
+    font-weight: bolder;
+  }
+
+  h3#city {
+    font-size: 15px;
+    padding-bottom: 30px;
+  }
+
+  h1#exp {
+    font-size: 25px;
+  }
+
+  #circ {
+    width: 160px;
+    height: 160px;
+  }
+
+  p#me {
+    font-size: 16px;
+  }
+
+  h1#port {
+    font-size: 25px;
+  }
+}
